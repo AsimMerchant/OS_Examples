@@ -2,7 +2,7 @@
 #define MAX 128
 struct mq_attr attrQ;
 char buffer[MAX];
- int main(int argc, char const *argv[]) {
+  int main(int argc, char const *argv[]) {
   mqd_t fdQue;
   attrQ.mq_flags=0;
   attrQ.mq_maxmsg=4;
