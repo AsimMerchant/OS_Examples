@@ -6,7 +6,8 @@ int main()
 {
 	char a[MAX],path[MAX],b[MAX]={'\0'};
 	char t;
-	printf("MYSHELL\n");	
+	pid_t;
+	fork()printf("MYSHELL\n");	
 	scanf("%s%s",a,b);
 	strcpy(path,"/bin/");
 	int i=0;
